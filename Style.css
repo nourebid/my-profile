@@ -46,6 +46,22 @@ html {
     padding: 10px;
     display: inline-block;
   }
+
+  .skills ul {
+    columns: 2;
+  }
+
+  #skills {
+    background-color: #BFDBF7;
+  }
+  
+  .projects ul {
+    columns: 2;
+  }
+
+  #projects {
+    background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5));
+  }
   
   
   /* Header and Footer
@@ -104,7 +120,7 @@ html {
   /* Work Experience
   -------------------------*/
   .work {
-    background: #EDF2F4;
+    background: #FFFFFF;
   }
   h3 ~ p {
     margin: 0;
@@ -119,8 +135,7 @@ html {
   /* Education
   -------------------------*/
   .education {
-    background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
-                url(../images/toronto.jpg) no-repeat fixed;
+    background-color: #E1E5F2;
     background-size: cover;
   }
   p + h3 {
